@@ -1,0 +1,21 @@
+#include<stdio.h>
+int factorial(int n){
+	int result=1;
+	for(int i=1;i<=n;i++){
+		result*=1;
+	}
+	return result;
+	}
+	int main() {
+		int num;
+		printf("enter a number :");
+		scanf("%d",&num);
+		printf("factorial of %d is %d\n",num,factorial(num));
+		return 0;
+	}
+ out put:
+ Enter the number7
+factorial of number5040:
+--------------------------------
+Process exited after 3.534 seconds with return value 0
+Press any key to continue . . .
